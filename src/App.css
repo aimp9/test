@@ -1,25 +1,97 @@
+
+.body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+  /*min-width: 1000px;*/
+}
+
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.logo {
+  /*animation: App-logo-spin infinite 20s linear;*/
+  height: 7vmin;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.body_header{
+  background-color: #132b75;
+  font-size: 12px;/*calc(5px + 2vmin);*/
   color: white;
-}
+  height: 300px; 
+ }
 
 .App-link {
   color: #61dafb;
+}
+
+.body_all_content{
+	margin-top: -100px;
+}
+
+.body_footer{
+	background-color: gray;
+	margin-top: 10%;
+}
+
+.body_container_left{
+	margin-left: 40px;
+}
+
+.body_container_title{
+	text-align: center;
+	padding-top: 60px;
+}
+
+.body_container_title_size{
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.body_container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+.body_container {
+    max-width: 1000px;
+}
+}
+
+
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.body_container_logo{
+  position: relative;
+  min-height: 1px;
+  padding-top: 20px;
+}
+
+.body_container_logo_title{
+	margin-top: -70px;
+	margin-left: 50px;
+}
+
+.body_container_logo_title_color {
+	color: #543ae8;
+	font-size: 16px;
 }
 
 @keyframes App-logo-spin {
