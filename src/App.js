@@ -3,7 +3,7 @@ import logo from './Vector.png';
 import './App.css';
 import ArticleList from './ArticleList';
 import articles from './fixtures';
-/*import 'bootstrap/dist/css/bootstrap.css';*/
+
 	
 		
   function App (){

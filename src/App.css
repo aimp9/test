@@ -8,7 +8,6 @@
   color: #212529;
   text-align: left;
   background-color: #fff;
-  /*min-width: 1000px;*/
 }
 
 
@@ -17,13 +16,12 @@
 }
 
 .logo {
-  /*animation: App-logo-spin infinite 20s linear;*/
   height: 7vmin;
 }
 
 .body_header{
   background-color: #132b75;
-  font-size: 12px;/*calc(5px + 2vmin);*/
+  font-size: 12px;
   color: white;
   height: 300px; 
  }
